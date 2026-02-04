@@ -7,18 +7,18 @@ class Openswe < Formula
   on_macos do
     on_arm do
       url "https://github.com/vladimirven001/openswe/releases/download/v1.0.0/openswe-darwin-arm64.tar.gz"
-      sha256 "3b6be327dbffb5d1b4cdaa67b4a57435d123eb770dc9ee044f23a3bced25e09a"
+      sha256 "38091c67ce0f05646b3fd26a09b8ed7e9f15cd724587517b2bf0ca1315b9a232"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vladimirven001/openswe/releases/download/v1.0.0/openswe-linux-arm64.tar.gz"
-      sha256 "6f03dbad6f64080042fc34005c94935c69e73f3a8b09a4e65a01b3e4398d02aa"
+      sha256 "7937d33f83956b61d5fe4d3eb031eaab3fda7658daa774168b0a0fadfe5b45f4"
     end
     on_intel do
       url "https://github.com/vladimirven001/openswe/releases/download/v1.0.0/openswe-linux-x64.tar.gz"
-      sha256 "4d4d1c8517911ee5fa6461badb6b3a328be0c9316fd6bab3d4a803904abb172c"
+      sha256 "994766235279163b27d6beeedf4109427d30ce85c4af25b7e0cc66da8e6896ff"
     end
   end
 
