@@ -1,24 +1,24 @@
 class Openswe < Formula
   desc "AI coding agent orchestration tool for tackling GitHub issues"
   homepage "https://github.com/vladimirven001/openswe"
-  version "1.0.2"
+  version "1.0.3"
   license "ISC"
 
   on_macos do
     on_arm do
-      url "https://github.com/vladimirven001/openswe/releases/download/v1.0.2/openswe-darwin-arm64.tar.gz"
-      sha256 "849c8e51c2368f74a17803bc4de69f611a078365b245dc0bc6d316a1c8130d26"
+      url "https://github.com/vladimirven001/openswe/releases/download/v1.0.3/openswe-darwin-arm64.tar.gz"
+      sha256 "54d6f0714c8467d219c2405db02d3604b2395964b753d219ba870dff4ff4f7d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vladimirven001/openswe/releases/download/v1.0.2/openswe-linux-arm64.tar.gz"
-      sha256 "94ae094a72fd600ee30950b8be962934fa144202cfde600bd6cf1885fdb01992"
+      url "https://github.com/vladimirven001/openswe/releases/download/v1.0.3/openswe-linux-arm64.tar.gz"
+      sha256 "0e4d715003487b69c11cce7c437490bb8237c2c72c317140aa1f39bd8e5974ab"
     end
     on_intel do
-      url "https://github.com/vladimirven001/openswe/releases/download/v1.0.2/openswe-linux-x64.tar.gz"
-      sha256 "5c14a67eb7b25633b6c305f0e0f858d213fa5a4ece07e7181ea2a6d89994b11c"
+      url "https://github.com/vladimirven001/openswe/releases/download/v1.0.3/openswe-linux-x64.tar.gz"
+      sha256 "5e48ffb951ec9cb4edd281441144787baeaf84474d3d355ee0a7f8e318ee5ca7"
     end
   end
 
